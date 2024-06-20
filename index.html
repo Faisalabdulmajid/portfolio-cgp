@@ -70,6 +70,23 @@
       .i-text {
         font-size: 20px; /* Mengatur ukuran font */
       }
+      @media (max-width: 500px) {
+        .profile-container {
+          flex-direction: column;
+        }
+        .profile-name {
+          margin-bottom: 20px;
+        }
+      }
+      .profile-photo img {
+        width: 50%; /* Mengatur lebar gambar menjadi 100% dari lebar elemen induk */
+        height: 400px; /* Mengatur tinggi gambar secara otomatis berdasarkan lebar */
+        border-radius: 50%; /* Membuat gambar menjadi bulat */
+        object-fit: cover; /* Memastikan gambar selalu menutupi area yang ditentukan, tanpa distorsi */
+      }
+      .i-text {
+        font-size: 20px; /* Mengatur ukuran font */
+      }
     </style>
     <title>Portfolio DIgital CGP</title>
   </head>
